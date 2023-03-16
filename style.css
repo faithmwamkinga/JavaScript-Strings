@@ -1,0 +1,356 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+        overflow-x: hidden;
+    width: 100%;
+    height: auto;
+    
+    }
+    header{
+      background-color: #f1f3f5;
+        padding: 30px;
+        text-align: right;
+        margin-right: 2%;
+        width: 96%;
+    }
+    #sign{
+        margin-left:40%;
+    }
+    #home{
+        color: #ff6b6b;
+        margin-right:4%;
+    }
+    #foodpage{
+        color: #ff6b6b;
+        text-align: left;
+        margin-right: 25%;
+        
+    }
+    .container{
+        background-color:#fff4e6 ;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .offercontainer{
+        display: flex;
+        background-color: #ffe3e3;
+      
+    }
+    .leftside{
+        margin-top: 10%;
+      padding-left: 100px;
+      
+    
+    }
+    .rightside{
+        margin-top: 6%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        border-radius: 100%;
+        width: 30%;
+        
+    
+    }
+    img{
+        width: 70%;
+        height: 70%;
+        border-radius: 100%;
+       
+    }
+    #smoked{
+        width: 100%;
+        height: 67%;
+    }
+    #fruity{
+        width: 75%;
+        height:65% ;
+    }
+    .right{
+       margin-top: 6%;
+       display: flex;
+       flex-direction: row;
+       align-items: center; 
+       border-radius: 100%;
+    
+    }
+    .left{
+        margin-left: 15%;
+        text-align: center;
+    }
+    #foodoffer{
+        width: 25%;
+        height: 60%;
+    }
+    #bestoffers{
+        margin-top: 8%;
+    }
+    #subheading{
+        margin-bottom: 5%;
+    }
+    .differentflavours{
+        margin-left: 15%;
+        margin-right: 10%;
+    }
+    .companyoffer{
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .somecustomers{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .secondcustomer{
+        text-align: center;
+    }
+    .bestcustomers img{
+        border-radius: 100%;
+        width: 40%;
+        height: 60%;
+        padding-left: 100px;
+    }
+    #testimonials{
+        margin-top: 10%;
+        text-align: center;
+    }
+    #theceo{
+        text-align: center;
+        padding-right: 140px;
+        
+    }
+    #lessicon{
+     margin-left: 30%;
+        color: #8a8b8d;
+    }
+    
+    #testimonies{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .icon{
+        width: 25px;
+        height: 25px
+    }
+    button{
+        width: 30x;
+        height: 60px;
+        border-radius: 30px;
+        background-color: rgb(255, 251, 0);
+    }
+    .menu{
+        width: 30px;
+        height: 10px;
+    }
+    .foods{
+        display: flex;
+        gap: 5%;
+        height: 70%;
+        margin-bottom: 7%;
+    }
+    #online{
+        text-align: center;
+    }
+    #popular{
+        text-align: center;
+    }
+    .offers{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    #discount{
+        width: 30px;
+        height: 15px;
+    }
+    #burger{
+        height: 50%;
+    }
+    #salad{
+        width: 90%;
+        height: 55%;
+    }
+    #maping{
+         width: 30%; 
+        height: 65%;
+    }
+    h3{
+        text-align: center; 
+        margin-top: 8%;
+    }
+    #restaurant{
+        position: relative;
+    }
+    #subheading{
+        text-align: center;
+    }
+    .containers{
+        background-color: #ffe3e3;
+        display: flex;   
+    }
+    #phone{
+        padding-top: 40px;
+        padding-bottom: 20px;
+        width: 30%;
+        height: 80%;
+        border-radius: none;
+        margin-left: 50%;
+        
+    } 
+    #subscription{
+        margin-top: 10%;
+        margin-left: 20%;
+        padding-bottom: 8px;
+    }
+    #iconic{
+        padding-top: 3px;
+    }
+    .allfeatures{
+        margin-top: 5%;
+        margin-right: 30%;
+    }
+    .footerpart{
+        height: 40%;
+        background-color: black;
+        color: white;
+        border-top-left-radius: 60px;
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .copyright{
+        width: 100%;
+        font-size: larger;
+        color: crimson;
+        background-color: yellow;
+    }
+    
+    .services{
+      
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #availableservices{
+        font-size: xx-large;
+    }
+    .services img{
+        width: 60%;
+        height: 100%;
+        border: solid;
+        border-color: white;
+     
+    }
+     @media(max-width:1200px){
+        header{
+            background-color: #f1f3f5;
+            padding: 30px;
+            text-align: right;
+            width: 94%;
+        }
+        #home{
+            color: #ff6b6b;
+            margin-right:5%;
+        }
+        #foodpage{
+            color: #ff6b6b;
+            text-align: left;
+             margin-right: 3%;
+        }
+        #sign{
+            margin-left:10%;
+        }
+        a{
+            padding: 30px;
+        }
+        body{
+            color: #ff6b6b;
+        }
+    }
+    @media(max-width:992px){
+        body{
+            color: #ff6b6b;
+        }
+        #home{
+            color: #ff6b6b;
+            margin-right:4%;
+        }
+    } 
+    @media(max-width:768px){
+        header{
+              width: 92%;
+          }
+          
+        body{
+            color: #ff6b6b;
+        }
+        button{
+            margin-bottom: 7%;
+        }
+        .pizza{
+            margin-top: 0%;
+        }
+        .foods{
+            margin-bottom: 15%;
+        }
+        #direction{
+            margin-bottom: 5%;
+        }
+        .differentflavours{
+            margin-bottom: 15%;
+        }
+        #theceo{
+            margin-left: 15%;
+        }
+        svg{
+            margin-left: -4%;
+        }
+    } 
+    @media(max-width:576px){
+        header{
+            width: 92%;
+            
+        }
+        #foodpage{
+            color: #ff6b6b;
+            text-align: left;
+            /* margin-left: 5%;    */
+        }
+        #home{
+            color: #ff6b6b;
+            /* margin-left:2%; */
+        }
+        
+      body{
+          color: #ff6b6b;
+      }
+      button{
+          margin-bottom: 7%;
+      }
+      .pizza{
+          margin-top: 0%;
+      }
+      .foods{
+          margin-bottom: 15%;
+      }
+      #direction{
+          margin-bottom: 5%;
+      }
+      .differentflavours{
+          margin-bottom: 15%;
+      }
+      #theceo{
+          margin-left: 15%;
+      }
+      svg{
+          margin-left: -4%;
+      }      
+       
+    } 
+  
